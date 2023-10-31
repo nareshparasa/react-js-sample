@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_react_js_sample_1698787590362-push-trigger-input-set
+  identifier: Build_react_js_sample_1698787590362pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_react_js_sample_1698787590362
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
